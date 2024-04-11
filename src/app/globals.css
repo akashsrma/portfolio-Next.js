@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* ______________________scroll */
+.scrolly::-webkit-scrollbar {
+  width: 7px;
+  height: 2px;
+}
+
+.scrolly::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 #e6e9eb;
+  border-radius: 50px;
+}
+/* ______________________scroll track start */
+.scrolly::-webkit-scrollbar-track-piece:start {
+  background: transparent;
+  margin-top: 8px;
+}
+/* ______________________scroll track end */
+.scrolly::-webkit-scrollbar-track-piece:end {
+  background: transparent;
+  margin-bottom: 8px;
+}
+.scrolly::-webkit-scrollbar-thumb {
+  background: #86bbf5;
+  border-radius: 50px;
+}
+
+.scrolly::-webkit-scrollbar-thumb:hover {
+  background: #eaedf0;
+}
+/* ______________________scrolly-hide */
+.scrolly-hide::-webkit-scrollbar {
+  display: none;
+}
