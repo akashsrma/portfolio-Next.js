@@ -96,7 +96,7 @@ const Navbar = () => {
         <Link href="/">
           <Image src="/dribbble.png" alt="" width={24} height={24} />
         </Link>
-        <Link href="/">
+        <Link href="https://www.instagram.com/akash_srma_/">
           <Image src="/instagram.png" alt="" width={24} height={24} />
         </Link>
         <Link href="/">
